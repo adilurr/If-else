@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <p id="test"></p>
+  <script type="text/javascript">
+    var marks = 69;
+    var decission;
+
+    if (marks >= 80) {
+      decission = "A grade";
+    }
+    else if (marks >= 60 && marks < 80) {
+      decission = "B grade";
+    }
+    else {
+      decission = "C garde"
+    }
+    document.getElementById('test').innerHTML = decission;
+  </script>
+</body>
+
+</html>
